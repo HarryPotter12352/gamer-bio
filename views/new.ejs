@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form action="/user/signedup" method="post">
+        <input type="text" name="username" id="username" placeholder="username" required>
+        <input type = "text" name = "games" id = "games" placeholder="games" required>
+        <input type="text" name="best" id="best" placeholder="Best game" required>
+        <input type="text" name="ign" id="ign" placeholder="In game name" required>
+        <button type="submit">Sign up now!</button>
+    </form>
+    <p><%= data.message %></p>
+</body>
+</html>
