@@ -9,7 +9,7 @@ Clone the repo using `git clone https://github.com/HarryPotter12352/gamer-bio.gi
 In the base directory make a file called `config.json` and enter content of the following format
 
 ```json
-{"mongo_url": "mongo db url here", port: 5500}
+{"mongo_url": "mongo db url here", "port": 5500}
 ```
 Then run `node index` to start the project and enjoy!
 
